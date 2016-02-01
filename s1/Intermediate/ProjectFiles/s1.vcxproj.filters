@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\s1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{92AFCA42-E93B-4287-B8BF-0152AACDA0E8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\s1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\s1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0849549F-50F5-4E7E-9092-C5E1A70F82D2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\s1">
+			<UniqueIdentifier>{E0FDDB08-E386-48B7-8F5D-9DDE3F1AE0BE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\s1\s1.Build.cs">
+			<Filter>Source\s1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\s1\s1.cpp">
+			<Filter>Source\s1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\s1\s1.h">
+			<Filter>Source\s1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\s1\s1Character.cpp">
+			<Filter>Source\s1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\s1\s1Character.h">
+			<Filter>Source\s1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\s1\s1GameMode.cpp">
+			<Filter>Source\s1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\s1\s1GameMode.h">
+			<Filter>Source\s1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\s1\s1PlayerController.cpp">
+			<Filter>Source\s1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\s1\s1PlayerController.h">
+			<Filter>Source\s1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
